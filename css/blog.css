@@ -1,0 +1,35 @@
+.first-heading{
+    color: red ;
+}
+
+.first-paragraph{
+    color: aqua;
+    font-size: 25px;
+}
+
+.second-heading{
+    text-align: end;
+}
+
+.first-div{
+    border: 2px solid black;
+    background-color: darkolivegreen;
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.second-div{
+    border: 2px dashed slateblue;
+    background-color: cornflowerblue;
+    margin-bottom: 20px;
+}
+
+.third-div{
+    border: 2px dotted goldenrod;
+    background-color:greenyellow;
+    margin: 80px;
+    padding: 25px;
+    border-radius: 25px;
+}

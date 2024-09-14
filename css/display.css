@@ -1,0 +1,26 @@
+.first-container{
+    border: 2px solid lightpink;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.first-heading{
+    border: 1px solid skyblue;
+}
+
+.first-span{
+    border: 1px solid darkslateblue;
+    /* display: block; */
+
+}
+.second-container{
+    border: 2px dotted lightsalmon;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.second-span{
+    border: 1px solid rgb(238, 28, 28);
+    height: 30px;
+    display: inline-block;
+}

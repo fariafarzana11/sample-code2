@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div.sticky{
+            padding: 5px;
+            background-color: aquamarine;
+            border: 2px solid lightcoral;
+        } */
+        img.sticky{
+           position: relative;
+           width: 100px;
+           left: 100px;
+           z-index: 3;
+        }
+
+        .img3{
+            position: relative;
+            z-index: -2;
+        }
+
+        .container2{
+            margin-top: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container sticky">
+        <img class="img img1" src="images/baby.webp" alt="">
+        <img class="img img2 sticky" src="images/bath tab.jpg" alt="">
+        <img class="img img3" src="images/water.png" alt="">
+    </div>
+    <div class="container2">
+        <div style="height: 100px; width: 150px; background-color: red;"> </div>
+        <div style="height: 100px; width: 100px; background-color: lawngreen; position: relative; top: -30px; left: 60px;"> </div>
+        
+
+    </div>
+</body>
+</html>

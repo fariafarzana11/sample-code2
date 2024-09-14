@@ -1,0 +1,40 @@
+
+.container{
+ 
+    background-image: url("https://www.shutterstock.com/image-vector/night-cricket-stadium-illustration-vector-600nw-2160100275.jpg");
+    background-repeat: no-repeat;
+    background-size: 1900px 900px;
+}
+
+ .background{
+    border: 2px solid green; 
+    height: 900px;
+}
+
+
+.bat{
+   height: 350px;
+  margin-top: 200px;
+  margin-left: 200px;
+   transition: transform 0.1s;
+}
+
+.background:hover .bat{
+    transform: rotate(-49deg);
+    transform-origin: top right;
+}
+
+.ball{
+   position: relative;
+   top: 90px;
+   width: 120px;
+   transition: transform 1s ease-in-out .2s;
+}
+
+.background:hover .ball{
+    transform: translate(1400px, -800px);
+} 
+ 
+
+
+
